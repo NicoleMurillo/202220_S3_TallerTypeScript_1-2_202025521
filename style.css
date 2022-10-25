@@ -1,0 +1,98 @@
+.color
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 100%;
+    background-color:rgb(53, 152, 174);
+    color:rgb(0, 0, 0);
+}
+
+.imageIcon{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.leftAlign {
+    text-align: left;
+  }
+
+.margenes{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.header img {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+  
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.tableSize {
+    table-layout: fixed;
+    width: 700px; 
+}
+
+.center {
+    text-align: left;
+}
+
+.no-seleccionada{
+    display: none;
+}
+
+.heading{
+    display:inline-block;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+table td{
+    background: rgb(241, 241, 241);
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.to-left{
+    width:75%;
+    Text-align:left;
+    float:left;
+}
+
+.to-right{
+    Text-align:left;
+    Width:25%;
+    float:right;
+}
+
+.boton{
+    cursor: pointer;
+    color:rgb(88, 178, 239);
+}
+
+.columnas-grises{
+    background-color: rgb(241, 241, 241);
+}

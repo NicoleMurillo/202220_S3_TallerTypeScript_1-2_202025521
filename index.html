@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series - Taller Typescript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="color">
+        <div class="header">
+                <img src="images/tv.png" alt="logo"/>
+                <h1>TV Series</h1>   
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="to-left">
+            <div class="tableSize">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                    </tr>
+                    <tbody id="series">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="center">
+                <h6 class="heading">Seasons average:</h6>
+                <h6 id="avg-seasons" class="heading"></h6>
+            </div>
+        </div>
+        <div class="to-right">
+            <div class="card no-seleccionada" id="card">
+                <img class="card-img-top" id="image-serie">
+                <div class="container">
+                  <div class="mt-4"></div>
+                  <h5 id="name-serie"></h5> 
+                  <div class="mt-4"></div>
+                  <p id="description-serie"></p>
+                  <div class="mt-4"></div>
+                  <a id="link-serie"></a>
+                  <div class="mt-4"></div>  
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/serie.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+
+</body>
